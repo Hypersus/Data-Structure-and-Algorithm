@@ -22,7 +22,7 @@ public class HashTest {
         long startQueryHashTime=System.currentTimeMillis();
         System.out.println(hashOri.get(58911));
         long endQueryHashTime=System.currentTimeMillis();
-        System.out.println("C实现哈希表插入5,000,000条数据用时"+(endInsertTime-startInsertTime)+"ms");
+        System.out.println("实现的哈希表插入5,000,000条数据用时"+(endInsertTime-startInsertTime)+"ms");
         System.out.println("java内置哈希表插入5,000,000条数据用时"+(endHashTime-startHashTime)+"ms");
         System.out.println("Hash查询数据用时"+(endQueryTime-startQueryTime)+"ms");
         System.out.println("HashMap查询数据用时"+(endQueryHashTime-startQueryHashTime)+"ms");
